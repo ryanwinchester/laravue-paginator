@@ -1,0 +1,25 @@
+{
+  "name": "laravue-paginator",
+  "version": "0.0.1",
+  "description": "Pagination Vue component for Laravel pagination",
+  "main": "dist/laravue-paginator.js",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+  },
+  "repository": "https://github.com/ryanwinchester/laravue-paginator",
+  "author": "Ryan Winchester <code@ryanwinchester.ca> (https://ryanwinchester.ca)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-merge": "^4.1.0"
+  }
+}
