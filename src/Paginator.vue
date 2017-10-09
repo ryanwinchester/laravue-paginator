@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div class="laravue-paginator">
       <!-- page info -->
-      <div>
+      <div class="laravue-paginator--page-info">
         Displaying results <b>{{pagination.from}}</b> to <b>{{pagination.to}}</b>
         of <b>{{pagination.total}}</b> total
         on page <b>{{pagination.current_page}}</b> of <b>{{pagination.last_page}}</b>
       </div>
 
       <!-- paging -->
-      <nav aria-label="Page navigation">
+      <nav aria-label="Page navigation" class="laravue-paginator--pagination">
         <ul class="pagination">
 
           <!-- first page button -->
