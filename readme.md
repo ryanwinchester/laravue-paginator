@@ -97,7 +97,7 @@ yarn add laravue-paginator
 - `pagination`: (required) The JSON version of Laravel pagination parameters.
 - `plus-min-range`: (optional) The number of pages to show on each side of the current. defaults to `2`
 - `change-event`: (optional) The name of the event to emit on page change. Defaults to `page:updated`
-- `event-emitter`: (optional) the even emitter object (vue instance). Defaults to `window.eventHub`
+- `event-emitter`: (optional) the even emitter object (vue instance). Defaults to `eventHub`
 
 
 `pagination` object should contain at least these properties:
