@@ -36,7 +36,7 @@ yarn add laravue-paginator
         :pagination="pagination"
         :plus-min-range="2"
         change-event="page:updated"
-        :event-emitter="window.eventHub"
+        :event-emitter="eventHub"
       ></laravue-paginator>
 
     </template>
@@ -54,6 +54,7 @@ yarn add laravue-paginator
 
     data() {
       return {
+        eventHub,
         dogs: [],
         pagination: null
       }
@@ -62,7 +63,7 @@ yarn add laravue-paginator
     created() {
       this.fetch_dogs()
 
-      eventHub.$on('page:updated', (event) => {
+      this.eventHub.$on('page:updated', (event) => {
         this.fetch_dogs(event.page)
       })
     },

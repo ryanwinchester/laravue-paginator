@@ -83,7 +83,7 @@
 
     methods: {
       update_page(page = 1) {
-        this[eventEmitter].$emit(this.changeEvent, {page})
+        this[this.eventEmitter].$emit(this.changeEvent, {page})
       }
     },
 
