@@ -1,5 +1,8 @@
 # Laravue Paginator
 
+ [![npm](https://img.shields.io/npm/v/laravue-paginator.svg)](https://www.npmjs.com/package/laravue-paginator)
+ [![npm](https://img.shields.io/npm/dt/laravue-paginator.svg)](https://github.com/ryanwinchester/laravue-paginator)
+
 Bootstrap styled paginator Vue component for Laravel pagination
 
 ### Install
